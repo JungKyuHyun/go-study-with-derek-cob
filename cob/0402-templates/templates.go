@@ -61,7 +61,7 @@ func RunTemplate() error {
 	t = t.Funcs(funcmap)
 	// 오류에 대응하기 위해 Must를 대신 사용할 수 있따.
 	// template.Must(t.Parse(sampleTemplate))
-	t, err := t.Parse(sampleTemplate) 
+	t, err := t.Parse(sampleTemplate)
 	if err != nil {
 		return err
 	}

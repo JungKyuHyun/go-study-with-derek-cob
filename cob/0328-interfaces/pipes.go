@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func PipeExampel() error  {
+func PipeExampel() error {
 	// pipe reader와 pipe writer는 io.Reader와 io.Writer를 구현한다.
 	// Pipe()는 동기 인메모리(in-memory) 파이프를 만든다.
 	r, w := io.Pipe()

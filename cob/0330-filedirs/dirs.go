@@ -9,7 +9,7 @@ import (
 // Operate 함수는 파일 및 디렉터리 조작
 func Operate() error {
 	// /tmp/example 디렉터리를 생성
-	err := os.Mkdir("example_dir", os.FileMode(0755));
+	err := os.Mkdir("example_dir", os.FileMode(0755))
 	if err != nil {
 		return err
 	}
@@ -44,7 +44,7 @@ func Operate() error {
 	if err := f.Close(); err != nil {
 		return err
 	}
-	
+
 	if err := os.Chdir(".."); err != nil {
 		return err
 	}
