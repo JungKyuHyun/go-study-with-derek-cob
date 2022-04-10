@@ -37,6 +37,8 @@ func main() {
 	signal.Notify(signals, syscall.SIGINT, syscall.SIGTERM)
 
 	// 이 고루틴에 의해 신호가 잡혔으면 done으로 쓴다.
+	// 신호를 받을 때까지 애플리케이션이 종료되지 않도록 막기 위해 done 채널을 사용한다.
+	// done 채널을 사용하지 않으면 애플리케이션이 바로 종료될 것이다.
 	go CatchSig(signals, done)
 
 	fmt.Println("Press ctrl-c to terminate...")
