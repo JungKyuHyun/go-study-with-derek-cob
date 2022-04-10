@@ -11,8 +11,8 @@ import (
 
 type Config struct {
 	Version string `json:"version" required:"true"`
-	IsSafe bool `json:"is_safe" default:"true"`
-	Secret string `json:"secret"`
+	IsSafe  bool   `json:"is_safe" default:"true"`
+	Secret  string `json:"secret"`
 }
 
 func main() {
