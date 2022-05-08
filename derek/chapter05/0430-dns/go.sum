@@ -1,0 +1,5 @@
+github.com/PacktPublishing/Go-Programming-Cookbook-Second-Edition/chapter5/dns v0.0.0-20210907164525-3b9a7100daee h1:OXQWbp+tCDHE/SF9fe8wVSsfErrFzkvkt64/S65Np1E=
+github.com/PacktPublishing/Go-Programming-Cookbook-Second-Edition/chapter5/dns v0.0.0-20210907164525-3b9a7100daee/go.mod h1:9IU9JooEm+10uiT6pqxN81xsCYAlphvqBoU/oWKQG5Y=
+github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
